@@ -12,6 +12,13 @@ void sub(int a,int b)
 	diff=a-b;
 	cout<<diff;
 }
+void mult(int a,int b)
+{
+        int prod;
+        prod=a*b;
+        cout<<prod;
+}
+
 int main()
 {
 	int a=10,b=5;
@@ -19,6 +26,8 @@ int main()
 	add(a,b);
 	cout<<"\n difference of two no's is "<<endl;
 	sub(a,b);
+	cout<<"\n product of two no's is "<<endl;
+        mult(a,b);
 	return(0);
 }
 	
